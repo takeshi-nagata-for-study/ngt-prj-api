@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev #アクティブにする環境を記述
+
+  datasource:
+    url: jdbc:postgresql://devdb.cgnqc5zjohcr.ap-northeast-1.rds.amazonaws.com:5432/devdb
+    username: dev
+    password: devngtdb
+    driver-class-name: org.postgresql.Driver
